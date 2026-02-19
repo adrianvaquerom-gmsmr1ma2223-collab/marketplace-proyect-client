@@ -1,19 +1,35 @@
+# Client - marketplace-proyect-client (React + Vite)
 
-# React + Vite
+Este es Frontend de la aplicación Marketplace Courses, desarrollado con React y Vite. Permite a los usuarios registrarse, iniciar sesión, visualizar cursos, crear cursos y gestionar inscripciones mediante una interfaz moderna conectada a una API REST.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologías utilizadas
+- React
+- Vite
+- JavaScript (ES6+)
+- React Router
+- Fetch / Axios (según implementación)
+- CSS personalizado
+- JWT (autenticación con token)
 
-Currently, two official plugins are available:
+## Funcionalidades principales
+- Registro de usuarios
+- Inicio de sesión
+- Persistencia de sesión mediante JWT
+- Visualización de cursos
+- Visualización de detalle de curso
+- Creación de cursos (usuarios autenticados)
+- Edición de cursos (propietario)
+- Dashboard privado
+- Subida de imágenes
+- Protección de rutas privadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos previos
+Asegúrate de tener instalado:
+- Node.js (v18 o superior recomendado)
+- npm
 
-## React Compiler
+Y que la API se esté ejecutando.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-carpeta cliente del proyecto
+## Instalación
+Desde la carpeta `client` ejecutar en Git Bash:
+npm install
